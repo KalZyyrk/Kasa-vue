@@ -1,0 +1,14 @@
+@import './base.css';
+
+#app {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 580px) {
+  #app {
+    padding: 20px;
+  }
+}
